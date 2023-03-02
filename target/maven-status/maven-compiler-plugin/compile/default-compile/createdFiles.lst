@@ -1,0 +1,5 @@
+Pages\RegisterPage.class
+Pages\LoginPage.class
+Pages\PageBase.class
+Pages\BookPage.class
+Pages\HomePage.class
