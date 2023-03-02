@@ -1,0 +1,5 @@
+Utilities\Helper.class
+Tests\TestBase.class
+Tests\HomeTest.class
+Tests\LoginTest.class
+Tests\BookTest.class
