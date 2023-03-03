@@ -22,5 +22,6 @@ public class HomeTest extends TestBase{
         homeObject.registerPage();
         registerObject = new RegisterPage(driver);
         registerObject.registerform(fname,lname,email,password);
+        //Assert.assertTrue(registerObject.resulttxt.getText().contains("Your registration completed"));
     }
 }

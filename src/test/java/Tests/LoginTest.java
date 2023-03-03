@@ -4,7 +4,7 @@ import Pages.HomePage;
 import Pages.LoginPage;
 import org.testng.annotations.Test;
 
-public class LoginTest<homeObject> extends TestBase
+public class LoginTest extends TestBase
 {
     HomePage homeObject ;
     LoginPage loginObject ;
@@ -18,5 +18,6 @@ public class LoginTest<homeObject> extends TestBase
         homeObject.loginPage();
         loginObject = new LoginPage(driver);
         loginObject.loginUser(hometest.email, hometest.password);
+
     }
 }
