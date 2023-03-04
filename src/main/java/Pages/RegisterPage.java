@@ -35,12 +35,19 @@ public class RegisterPage extends PageBase
 
     public void registerform(String fname,String lname,String email,String password)
     {
+
         firstNametxt.sendKeys(fname);
+
         lastNametxt.sendKeys(lname);
+
         emailtxt.sendKeys(email);
+
         passwordtxt.sendKeys(password);
+
         confirmPasswordtxt.sendKeys(password);
+
         clickButton(registerbtn);
+
         clickButton(continuebtn);
     }
 

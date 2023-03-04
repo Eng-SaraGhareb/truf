@@ -22,7 +22,9 @@ public class LoginPage extends PageBase{
     {
 
         setTextElementText(Emailtxt,email);
+
         setTextElementText(Passwordtxt,password);
+
         clickButton(Loginbtn);
     }
 
